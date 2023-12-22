@@ -68,6 +68,3 @@ PRODUCT_PACKAGES += \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common
-
-# Inherit from our custom product configuration
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
